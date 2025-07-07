@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uni Equipment ბმულები</title>
+  <style>
+    body { 
+      font-family: "Segoe UI", sans-serif; 
+      background: #f8f8f8; 
+      color: #25365A; 
+      text-align: center; 
+      padding: 2rem 1rem; 
+      margin: 0;
+    }
+    .container { 
+      max-width: 400px; 
+      margin: auto; 
+      background: #fff; 
+      padding: 2rem; 
+      border-radius: 20px; 
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05); 
+    }
+    img.logo { 
+      width: 120px; 
+      margin-bottom: 1rem; 
+    }
+    .link-button { 
+      display: block; 
+      margin: 0.5rem 0; 
+      padding: 1rem; 
+      background: #25365A; 
+      color: #fff; 
+      text-decoration: none; 
+      border-radius: 12px; 
+      font-size: 1.1rem; 
+      transition: background 0.2s; 
+      box-sizing: border-box; 
+    }
+    .link-button:hover, .link-button:focus { 
+      background: #1b2840; 
+    }
+    .lang-switch { 
+      margin-top: 2rem; 
+      font-size: 0.95rem; 
+    }
+    .lang-switch a { 
+      color: #f15a29; 
+      text-decoration: none; 
+      font-weight: bold; 
+    }
+
+    /* Responsive styles */
+    @media (max-width: 500px) {
+      .container {
+        max-width: 100%;
+        padding: 1rem;
+        border-radius: 0;
+        box-shadow: none;
+      }
+      img.logo {
+        width: 90px;
+      }
+      .link-button {
+        font-size: 1rem;
+        padding: 0.9rem;
+      }
+      h1 {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://uniequipment.ge/img/logo.png" alt="Uni Equipment Logo" class="logo" />
+    <h1>აირჩიე ბმული</h1>
+    <a href="https://uniequipment.ge/ge/home" class="link-button">🌐 ჩვენი ვებგვერდი</a>
+    <a href="https://www.facebook.com/uniequipment.ge" class="link-button">📘 Uni Equipment Facebook</a>
+    <a href="https://www.facebook.com/husqvarna.construction.georgia" class="link-button">🔧 Husqvarna Construction</a>
+    <a href="https://www.facebook.com/dynapac.georgia" class="link-button">🚧 Dynapac Georgia</a>
+    <div class="lang-switch">EN? <a href="#">Click here</a></div>
+  </div>
+</body>
+</html>
